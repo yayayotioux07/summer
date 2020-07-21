@@ -91,6 +91,76 @@
 
 }
 
+#record {
+    background-color: red; /* Green */
+    border-width: medium;
+    border-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    max-width: 50%;
+    max-height: 15%;
+    border-radius: 50%;
+    left: 100px;
+    right: 100px;
+    position: left;
+}
+#stopRecord {
+  background-color: green; /* Green */
+  border-width: medium;
+  border-color: black;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  text-decoration: none;
+  display: ;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  max-width: 50%;
+  max-height: 15%;
+  border-radius: 50%;
+  left: 100px;
+  right: 100px;
+  position: left;
+}
+#uploadRecord {
+  background-color: purple;
+  border-width: medium;
+  border-color: black;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  text-decoration: none;
+  display: ;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  max-width: 50%;
+  max-height: 15%;
+  border-radius: 50%;
+  left: 100px;
+  right: 100px;
+  position: left;
+}
+#files {
+  position: left;
+}
+#recordedAudio {
+  left: 100px;
+  right: 100px;
+  position: relative;
+}
+
+#closedatatracker {
+  position: right;
+}
+
 #individualPic {
   size: .5rem;
 }
@@ -7697,7 +7767,7 @@ button.bg-dark:focus {
   margin-bottom: .0rem !important;
   font-size: 1.5rem;
   text-align: left;
-}
+ }
 
 .ml-5,
 .mx-5 {
